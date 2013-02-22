@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'SidebarDemo' target in the 'SidebarDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "NSView+Utils.h"
+#endif

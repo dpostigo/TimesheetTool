@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="830eac19-84e9-4c02-b2cd-425c4a0a4b48" name="Default" comment="" />
+    <ignored path="SidebarDemo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_x86_64" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TimeEntryCell.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/data/TimeEntryCell.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="40" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeEntryCell.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/data/TimeEntryCell.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="437" selection-end="476" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeEntry.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/models/TimeEntry.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="7" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Project.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/models/Project.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="27" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicLibrary.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/BasicLibrary.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="19" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#notifyDelegates:object:#0;n#BasicLibrary#0" expanded="true" />
+                <element signature="n#notifyDelegates:object:object:#0;n#BasicLibrary#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveDataOperation.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/operations/SaveDataOperation.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="77" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/models/Model.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="83" selection-start="3398" selection-end="3398" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#init#0;n#Model#0" expanded="true" />
+                <element signature="n#currentProjectIndex#0;n#Model#0" expanded="true" />
+                <element signature="n#currentProjectId#0;n#Model#0" expanded="true" />
+                <element signature="n#populateProjectIds#0;n#Model#0" expanded="true" />
+                <element signature="n#projectFromId:#0;n#Model#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/models/Model.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="38" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeLogViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/TimeLogViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="51" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#updateTimer#0;n#TimeLogViewController#0" expanded="true" />
+                <element signature="n#selectedAddNewProject:#0;n#TimeLogViewController#0" expanded="true" />
+                <element signature="n#handleStartClicked:#0;n#TimeLogViewController#0" expanded="true" />
+                <element signature="n#addTimeEntry#0;n#TimeLogViewController#0" expanded="true" />
+                <element signature="n#handleStopClicked:#0;n#TimeLogViewController#0" expanded="true" />
+                <element signature="n#switchMode:#0;n#TimeLogViewController#0" expanded="true" />
+                <element signature="n#displayCurrentProject#0;n#TimeLogViewController#0" expanded="true" />
+                <element signature="n#stringFromTimeEntry:#0;n#TimeLogViewController#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoursViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="88" column="81" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.1954023">
+              <folding>
+                <element signature="n#initWithNibName:bundle:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#loadView#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#timeLogSwitchedMode#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#timeEntriesChangedForProject:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#timeEntryCompleted:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#didSelectAddNewProject#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#addTimeEntry:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#deleteTimeEntry:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#tableView:rowViewForRow:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#tableView:viewForTableColumn:row:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#outlineView:rowViewForItem:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#splitView:constrainMinCoordinate:ofSubviewAt:#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#makeProjectTree#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#setTableColumnIdentifiers#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#createTableColumns#0;n#HoursViewController#0" expanded="true" />
+                <element signature="n#makeTimeEntriesTree#0;n#HoursViewController#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoursViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="27" selection-start="871" selection-end="877" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeEntry.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/models/TimeEntry.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="18" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#initWithTimeStarted:#0;n#TimeEntry#0" expanded="true" />
+                <element signature="n#initWithTimeStarted:projectId:#0;n#TimeEntry#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HourView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/HourView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="35" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSBezierPath+Utils.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/NSBezierPath+Utils.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="16" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NSShadow+Utils.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/NSShadow+Utils.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="9" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicWhiteView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/BasicWhiteView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="33" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#drawRect:#0;n#BasicWhiteView#0" expanded="true" />
+                <element signature="n#drawShadow:#0;n#BasicWhiteView#0" expanded="true" />
+                <element signature="n#drawGradientInRect:#0;n#BasicWhiteView#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicWhiteView.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/views/BasicWhiteView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SidebarTableCellView.m" />
+        <option value="$PROJECT_DIR$/src/app/models/Project.h" />
+        <option value="$PROJECT_DIR$/src/app/models/Project.m" />
+        <option value="$PROJECT_DIR$/src/app/views/BasicWhiteView.m" />
+        <option value="$PROJECT_DIR$/src/app/viewcontrollers/InboxViewController.m" />
+        <option value="$PROJECT_DIR$/src/libs/CustomWindowController/ColoredWindowController.m" />
+        <option value="$PROJECT_DIR$/src/libs/CustomWindowController/INAppStoreWindow.m" />
+        <option value="$PROJECT_DIR$/src/app/data/TimeEntryCell.h" />
+        <option value="$PROJECT_DIR$/src/models/BasicLibrary.m" />
+        <option value="$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.h" />
+        <option value="$PROJECT_DIR$/src/app/models/TimeEntry.h" />
+        <option value="$PROJECT_DIR$/src/app/models/TimeEntry.m" />
+        <option value="$PROJECT_DIR$/src/app/viewcontrollers/TimeLogViewController.m" />
+        <option value="$PROJECT_DIR$/src/app/operations/SaveDataOperation.m" />
+        <option value="$PROJECT_DIR$/src/app/models/Model.m" />
+        <option value="$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.m" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CustomWindowController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_iconography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Other Sources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicMacProject" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="DirectoryView.Xcode" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="editor.preferences.import" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="BasicMacProject" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.SidebarDemo">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="SidebarDemo" TARGET_NAME="SidebarDemo" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="SidebarDemo" RUN_TARGET_NAME="SidebarDemo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SidebarDemo" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="SidebarDemo" PROJECT_NAME="BasicMacProject" TARGET_NAME="BasicMacProject" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="BasicMacProject" RUN_TARGET_NAME="BasicMacProject" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.SidebarDemo" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="830eac19-84e9-4c02-b2cd-425c4a0a4b48" name="Default" comment="" />
+      <created>1361051572018</created>
+      <updated>1361051572018</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="807" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15136299" sideWeight="0.66619915" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16140603" sideWeight="0.66619915" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33380085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="9" selection-start="8587" selection-end="8592" vertical-scroll-proportion="-15.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/CustomWindowController/INAppStoreWindow.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="416" column="6" selection-start="17551" selection-end="17551" vertical-scroll-proportion="-0.4597701">
+          <folding>
+            <element signature="n#INMidHeight#0" expanded="true" />
+            <element signature="n#createClippingPathWithRectAndRadius#0" expanded="true" />
+            <element signature="n#createGradientWithColors#0" expanded="true" />
+            <element signature="n#methodSignatureForSelector:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
+            <element signature="n#respondsToSelector:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
+            <element signature="n#forwardInvocation:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
+            <element signature="n#window:willPositionSheet:usingRect:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
+            <element signature="n#isKindOfClass:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
+            <element signature="n#drawNoiseWithOpacity:#0;n#INTitlebarView#0" expanded="true" />
+            <element signature="e#6574#7167#0" expanded="true" />
+            <element signature="n#drawRect:#0;n#INTitlebarView#0" expanded="true" />
+            <element signature="n#getTitleFrame:textAttributes:forWindow:#0;n#INTitlebarView#0" expanded="true" />
+            <element signature="n#mouseUp:#0;n#INTitlebarView#0" expanded="true" />
+            <element signature="n#mouseDragged:#0;n#INTitlebarContainer#0" expanded="true" />
+            <element signature="n#initWithContentRect:styleMask:backing:defer:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#initWithContentRect:styleMask:backing:defer:screen:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#dealloc#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#becomeKeyWindow#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#resignKeyWindow#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#becomeMainWindow#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#resignMainWindow#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setContentView:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setTitle:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setTitleBarView:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#titleBarView#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setTitleBarHeight:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#titleBarHeight#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setShowsBaselineSeparator:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#showsBaselineSeparator#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setTrafficLightButtonsLeftMargin:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#trafficLightButtonsLeftMargin#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setFullScreenButtonRightMargin:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#fullScreenButtonRightMargin#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setShowsTitle:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setCenterFullScreenButton:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setCenterTrafficLightButtons:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setVerticalTrafficLightButtons:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setTrafficLightSeparation:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setDelegate:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#delegate#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setCloseButton:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setMinimizeButton:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setZoomButton:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setFullScreenButton:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setStyleMask:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setFrame:display:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#setFrame:display:animate:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_doInitialWindowSetup#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_windowButtonToLayout:orUserProvided:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_closeButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_minimizeButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_zoomButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_fullScreenButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_layoutTrafficLightsAndContent#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#undoManagerDidCloseUndoGroupNotification:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#windowWillEnterFullScreen:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#windowWillExitFullScreen:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#themeFrameView#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_createTitlebarView#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_hideTitleBarView:#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_setupTrafficLightsTrackingArea#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_recalculateFrameForTitleBarContainer#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_repositionContentView#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_minimumTitlebarHeight#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_defaultTrafficLightLeftMargin#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_defaultTrafficLightSeparation#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_displayWindowAndTitlebar#0;n#INAppStoreWindow#0" expanded="true" />
+            <element signature="n#_updateTitlebarView#0;n#INAppStoreWindow#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/CustomWindowController/ColoredWindowController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="43" selection-start="318" selection-end="318" vertical-scroll-proportion="0.47767857">
+          <folding>
+            <element signature="n#initWithCoder:#0;n#ColoredWindowController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/data/TimeEntryCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/BasicLibrary.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="19" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#notifyDelegates:object:#0;n#BasicLibrary#0" expanded="true" />
+            <element signature="n#notifyDelegates:object:object:#0;n#BasicLibrary#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/TimeEntry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="7" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/TimeEntry.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="18" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#initWithTimeStarted:#0;n#TimeEntry#0" expanded="true" />
+            <element signature="n#initWithTimeStarted:projectId:#0;n#TimeEntry#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/BasicWhiteView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="33" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#drawRect:#0;n#BasicWhiteView#0" expanded="true" />
+            <element signature="n#drawShadow:#0;n#BasicWhiteView#0" expanded="true" />
+            <element signature="n#drawGradientInRect:#0;n#BasicWhiteView#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/views/BasicWhiteView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="27" selection-start="871" selection-end="877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/operations/SaveDataOperation.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="77" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/TimeLogViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="51" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#updateTimer#0;n#TimeLogViewController#0" expanded="true" />
+            <element signature="n#selectedAddNewProject:#0;n#TimeLogViewController#0" expanded="true" />
+            <element signature="n#handleStartClicked:#0;n#TimeLogViewController#0" expanded="true" />
+            <element signature="n#addTimeEntry#0;n#TimeLogViewController#0" expanded="true" />
+            <element signature="n#handleStopClicked:#0;n#TimeLogViewController#0" expanded="true" />
+            <element signature="n#switchMode:#0;n#TimeLogViewController#0" expanded="true" />
+            <element signature="n#displayCurrentProject#0;n#TimeLogViewController#0" expanded="true" />
+            <element signature="n#stringFromTimeEntry:#0;n#TimeLogViewController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/Model.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="83" selection-start="3398" selection-end="3398" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#init#0;n#Model#0" expanded="true" />
+            <element signature="n#currentProjectIndex#0;n#Model#0" expanded="true" />
+            <element signature="n#currentProjectId#0;n#Model#0" expanded="true" />
+            <element signature="n#populateProjectIds#0;n#Model#0" expanded="true" />
+            <element signature="n#projectFromId:#0;n#Model#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/Model.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="81" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.1954023">
+          <folding>
+            <element signature="n#initWithNibName:bundle:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#loadView#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#timeLogSwitchedMode#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#timeEntriesChangedForProject:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#timeEntryCompleted:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#didSelectAddNewProject#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#addTimeEntry:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#deleteTimeEntry:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#tableView:rowViewForRow:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#tableView:viewForTableColumn:row:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#outlineView:rowViewForItem:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#splitView:constrainMinCoordinate:ofSubviewAt:#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#makeProjectTree#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#setTableColumnIdentifiers#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#createTableColumns#0;n#HoursViewController#0" expanded="true" />
+            <element signature="n#makeTimeEntriesTree#0;n#HoursViewController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

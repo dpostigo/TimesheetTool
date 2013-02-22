@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0309359D16D039A700D1C969 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 0309359C16D039A700D1C969 /* src */; };
+		0309359F16D03D1A00D1C969 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 0309359E16D03D1A00D1C969 /* assets */; };
+		03A8C47A16D5A61C00989360 /* ColoredWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A8C47916D5A61C00989360 /* ColoredWindow.xib */; };
+		03A8C47C16D6CD8B00989360 /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A8C47B16D6CD8B00989360 /* ScheduleView.xib */; };
+		03E2184516D509FE005E4CBC /* AgendaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E2184416D509FE005E4CBC /* AgendaView.xib */; };
+		03F5A5FC16D18CCB008E3896 /* InboxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F5A5FB16D18CCB008E3896 /* InboxView.xib */; };
+		03F5A5FE16D18F66008E3896 /* HoursView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F5A5FD16D18F66008E3896 /* HoursView.xib */; };
+		03F5A60016D191D3008E3896 /* TimeLogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F5A5FF16D191D3008E3896 /* TimeLogView.xib */; };
+		03F5A60216D1983B008E3896 /* ProjectsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F5A60116D1983B008E3896 /* ProjectsView.xib */; };
+		03F5A60416D2CD3C008E3896 /* HourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F5A60316D2CD3C008E3896 /* HourCell.xib */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AppDelegate.m */; };
+		7CA4408952E797017685EF5B /* NSDate+JMSimpleDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44497582AF088D6DABD71 /* NSDate+JMSimpleDate.m */; };
+		7CA4408B361604E281ACAC41 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA440006973C02383663245 /* INWindowButton.m */; };
+		7CA440AC33069256F8AB4232 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4457485A6C88B3EE055BE /* INAppStoreWindow.m */; };
+		7CA440DECA5B26B74F9A3151 /* NSView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44DF384C708A9833897A5 /* NSView+Utils.m */; };
+		7CA4411336EEAB6A61BA8090 /* SaveDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA440820D5483D0ED86210D /* SaveDataOperation.m */; };
+		7CA4415FE2A09F41B07F56D1 /* TimeEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4436906859D489A183E41 /* TimeEntryCell.m */; };
+		7CA44181C135A3B77A5796B0 /* HourView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA441BA157170F845EC45D9 /* HourView.m */; };
+		7CA441B3709954D0A73306C2 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA446C40320F6FEADE9F9A9 /* ProjectsViewController.m */; };
+		7CA4421A51310BB190E485E5 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4452F79641BDCFD6DF970 /* CustomTextField.m */; };
+		7CA442BA7BC89D6C5D82BC95 /* NSDateFormatter+JMSimpleDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4447AFEE68DDC5112B195 /* NSDateFormatter+JMSimpleDate.m */; };
+		7CA442FB513157BEFDBFEEF3 /* BasicOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44F1657AC415D5099E22F /* BasicOperation.m */; };
+		7CA443277790B682AD35C6F1 /* BasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA442899CD0CBDB78A67513 /* BasicModel.m */; };
+		7CA443A9C34DA8155CAB0763 /* TimeLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44A2D1CFFE4CC9134D2CA /* TimeLogViewController.m */; };
+		7CA444914ADF5A055275216A /* HoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44AE1A22EBF73F001C039 /* HoursViewController.m */; };
+		7CA444E7F4E1325C3B098E2E /* NSColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44F2AB950F742373A96CE /* NSColor+Utils.m */; };
+		7CA445A4E3D0D67E9047DE2B /* NSColor+INAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44261AF0BE6E096CF8805 /* NSColor+INAdditions.m */; };
+		7CA445C9A845BA84A5646E0F /* BasicOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4430B971F37A2B34B7EE5 /* BasicOutlineView.m */; };
+		7CA445CAB9A83B3C08F41610 /* VeryBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4494B8DED6BC36C7BDE99 /* VeryBasicViewController.m */; };
+		7CA445FB0CF180C45A9409DB /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA444E973BEF707780226F0 /* AgendaViewController.m */; };
+		7CA4463410792F024284BCA1 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4469A764AD3EB31B7B9D1 /* BasicViewController.m */; };
+		7CA44641E0E4445E75043E32 /* NSBezierPath+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA441BDF7E3C954B85E3A4A /* NSBezierPath+Utils.m */; };
+		7CA4467B5EE40E684007EED2 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA440AA4D6D4329889580AB /* Project.m */; };
+		7CA446A205A96C587F91F656 /* iTableColumnHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44A5E77409CC69EF16EE8 /* iTableColumnHeaderCell.m */; };
+		7CA44712929522591BF0C226 /* HoverTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4461246637E047CB1F1C3 /* HoverTableRowView.m */; };
+		7CA447181A01BCC6938D96AC /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44E379DB3CCB4B2F94605 /* InboxViewController.m */; };
+		7CA44739E9486505AE0202AC /* BasicSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44755EF4CE0F63142F1B4 /* BasicSplitView.m */; };
+		7CA4474655A0B56BCE846B63 /* TreeDatum.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44ECD2595B5FA8268A64D /* TreeDatum.m */; };
+		7CA447785857D850D50EFA07 /* ProjectsOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA445AF20CC4F6D69720C70 /* ProjectsOutlineView.m */; };
+		7CA4485A0526272FB9E3136E /* BasicWhiteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44A7B7386C934DC015C30 /* BasicWhiteView.m */; };
+		7CA448D460CFEFE8D0E40A47 /* SampleAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44FCF179E16B971F808E5 /* SampleAppAppDelegate.m */; };
+		7CA44978316D305D37047B52 /* BasicInnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA448E97592BBAA9E4F57C2 /* BasicInnerShadowView.m */; };
+		7CA4498FC543E886370E3185 /* TimeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44D679E42E2B591CF0C28 /* TimeEntry.m */; };
+		7CA44A0A3978D80858771E86 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA446655D615DECA9E37A8D /* Model.m */; };
+		7CA44A3FFC55123BA90A1E6B /* AgendaCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4443177C0600ED88DB72A /* AgendaCellView.m */; };
+		7CA44B1129B9A092C18957A3 /* CustomMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CA44A3ACD614D5EC72FC8DE /* CustomMainMenu.xib */; };
+		7CA44B68E60E58681A6D3E0F /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA448DF1B554B8D85D4E543 /* PrioritySplitViewDelegate.m */; };
+		7CA44C44276925758046924D /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44BB35B27FCDA7FC7890C /* BasicView.m */; };
+		7CA44C91988B1EDF5BAD2103 /* AgendaHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4407D2724F2019E7C6D24 /* AgendaHeaderCell.m */; };
+		7CA44D16EE906A99A303E959 /* NSShadow+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA440AD98E4A824CFBC645A /* NSShadow+Utils.m */; };
+		7CA44D4C5B46ED2F2D24998E /* ColoredWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44BAF69940335D664E30D /* ColoredWindowController.m */; };
+		7CA44DFA7A2602F4AE5F6572 /* SidebarOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA441B3CD9FBC3CB4F11071 /* SidebarOutlineView.m */; };
+		7CA44E5982012B32430F6251 /* JMSimpleDateConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA4471EF24446698C151919 /* JMSimpleDateConstants.m */; };
+		7CA44ED59FBB6FEE8AB4BD13 /* BasicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA447878B09BC579C47B607 /* BasicLibrary.m */; };
+		7CA44F39E4A5FF9AB9F317DB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA441C4864B2CB847CB5BC7 /* Person.m */; };
+		7CA44FB6C7D549FBDAE74FBE /* JMSimpleDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA44BCC0B82CC3192C7F26D /* JMSimpleDate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9DBCD2CB12AEEB6F0094CDBE /* SidebarTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCD2CA12AEEB6F0094CDBE /* SidebarTableCellView.m */; };
+		9DF2644C1358EC8300147CC7 /* ContentView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF264461358EC8300147CC7 /* ContentView1.xib */; };
+		9DF2644D1358EC8300147CC7 /* ContentView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF264481358EC8300147CC7 /* ContentView2.xib */; };
+		9DF2644E1358EC8300147CC7 /* ContentView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF2644A1358EC8300147CC7 /* ContentView3.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0309359C16D039A700D1C969 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		0309359E16D03D1A00D1C969 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		03A8C47916D5A61C00989360 /* ColoredWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ColoredWindow.xib; path = src/xibs/ColoredWindow.xib; sourceTree = "<group>"; };
+		03A8C47B16D6CD8B00989360 /* ScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleView.xib; path = src/xibs/ScheduleView.xib; sourceTree = "<group>"; };
+		03E2184416D509FE005E4CBC /* AgendaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgendaView.xib; path = src/xibs/AgendaView.xib; sourceTree = "<group>"; };
+		03F5A5FB16D18CCB008E3896 /* InboxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InboxView.xib; path = src/xibs/InboxView.xib; sourceTree = "<group>"; };
+		03F5A5FD16D18F66008E3896 /* HoursView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HoursView.xib; path = src/xibs/HoursView.xib; sourceTree = "<group>"; };
+		03F5A5FF16D191D3008E3896 /* TimeLogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimeLogView.xib; path = src/xibs/TimeLogView.xib; sourceTree = "<group>"; };
+		03F5A60116D1983B008E3896 /* ProjectsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProjectsView.xib; path = src/xibs/ProjectsView.xib; sourceTree = "<group>"; };
+		03F5A60316D2CD3C008E3896 /* HourCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HourCell.xib; path = src/xibs/HourCell.xib; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* BasicMacProject_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMacProject_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7CA440006973C02383663245 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INWindowButton.m; path = src/libs/CustomWindowController/INWindowButton.m; sourceTree = "<group>"; };
+		7CA4405263E53D76C4A19214 /* TimeEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeEntry.h; path = src/app/models/TimeEntry.h; sourceTree = "<group>"; };
+		7CA440700D8299D35AE0839C /* ProjectsOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectsOutlineView.h; path = src/app/views/ProjectsOutlineView.h; sourceTree = "<group>"; };
+		7CA4407D2724F2019E7C6D24 /* AgendaHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgendaHeaderCell.m; path = src/app/views/AgendaHeaderCell.m; sourceTree = "<group>"; };
+		7CA440820D5483D0ED86210D /* SaveDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaveDataOperation.m; path = src/app/operations/SaveDataOperation.m; sourceTree = "<group>"; };
+		7CA440AA4D6D4329889580AB /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Project.m; path = src/app/models/Project.m; sourceTree = "<group>"; };
+		7CA440AD98E4A824CFBC645A /* NSShadow+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSShadow+Utils.m"; path = "src/utils/NSShadow+Utils.m"; sourceTree = "<group>"; };
+		7CA440D60A2D3096270ED335 /* TimeEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeEntryCell.h; path = src/app/data/TimeEntryCell.h; sourceTree = "<group>"; };
+		7CA44106295E5344E9C67C94 /* AgendaCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgendaCellView.h; path = src/app/views/AgendaCellView.h; sourceTree = "<group>"; };
+		7CA441068AAA3A12BEA11C50 /* SaveDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SaveDataOperation.h; path = src/app/operations/SaveDataOperation.h; sourceTree = "<group>"; };
+		7CA4411313716C185C30FB3B /* NSColor+INAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+INAdditions.h"; path = "src/libs/CustomWindowController/NSColor+INAdditions.h"; sourceTree = "<group>"; };
+		7CA44159A8B3EFA920FE8AA5 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectsViewController.h; path = src/app/viewcontrollers/ProjectsViewController.h; sourceTree = "<group>"; };
+		7CA441B3CD9FBC3CB4F11071 /* SidebarOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarOutlineView.m; path = src/app/viewcontrollers/SidebarOutlineView.m; sourceTree = "<group>"; };
+		7CA441BA157170F845EC45D9 /* HourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HourView.m; path = src/app/views/HourView.m; sourceTree = "<group>"; };
+		7CA441BDF7E3C954B85E3A4A /* NSBezierPath+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+Utils.m"; path = "src/utils/NSBezierPath+Utils.m"; sourceTree = "<group>"; };
+		7CA441C4864B2CB847CB5BC7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = src/models/Person.m; sourceTree = "<group>"; };
+		7CA441D4DF24F57DBCD599F6 /* BasicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicLibrary.h; path = src/models/BasicLibrary.h; sourceTree = "<group>"; };
+		7CA441E6ED706735AC678F81 /* BasicInnerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicInnerShadowView.h; path = src/views/BasicInnerShadowView.h; sourceTree = "<group>"; };
+		7CA44223F7C2C88D761898C3 /* NSShadow+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSShadow+Utils.h"; path = "src/utils/NSShadow+Utils.h"; sourceTree = "<group>"; };
+		7CA4422C54DC0A11DB977EC1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = src/models/Person.h; sourceTree = "<group>"; };
+		7CA44256AC8931DF9880C79E /* NSColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+Utils.h"; path = "src/utils/NSColor+Utils.h"; sourceTree = "<group>"; };
+		7CA44261AF0BE6E096CF8805 /* NSColor+INAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+INAdditions.m"; path = "src/libs/CustomWindowController/NSColor+INAdditions.m"; sourceTree = "<group>"; };
+		7CA4426ADF11DDE6F544DEDC /* HourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HourView.h; path = src/app/views/HourView.h; sourceTree = "<group>"; };
+		7CA442899CD0CBDB78A67513 /* BasicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicModel.m; path = src/models/BasicModel.m; sourceTree = "<group>"; };
+		7CA4430B971F37A2B34B7EE5 /* BasicOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicOutlineView.m; path = src/views/BasicOutlineView.m; sourceTree = "<group>"; };
+		7CA443494EAE1BC99943ADDD /* SidebarOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarOutlineView.h; path = src/app/viewcontrollers/SidebarOutlineView.h; sourceTree = "<group>"; };
+		7CA4436906859D489A183E41 /* TimeEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeEntryCell.m; path = src/app/data/TimeEntryCell.m; sourceTree = "<group>"; };
+		7CA4439B8C8C7AA9BEBCD37A /* NSDate+JMSimpleDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+JMSimpleDate.h"; path = "src/libs/JMSimpleDate/NSDate+JMSimpleDate.h"; sourceTree = "<group>"; };
+		7CA44404DC2DEAE734A1F4C0 /* NSDateFormatter+JMSimpleDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+JMSimpleDate.h"; path = "src/libs/JMSimpleDate/NSDateFormatter+JMSimpleDate.h"; sourceTree = "<group>"; };
+		7CA444208DA56B14297E558F /* TimeLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeLogViewController.h; path = src/app/viewcontrollers/TimeLogViewController.h; sourceTree = "<group>"; };
+		7CA4443177C0600ED88DB72A /* AgendaCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgendaCellView.m; path = src/app/views/AgendaCellView.m; sourceTree = "<group>"; };
+		7CA44437D9EF3A19A109CDEE /* SampleAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleAppAppDelegate.h; path = src/libs/CustomWindowController/SampleAppAppDelegate.h; sourceTree = "<group>"; };
+		7CA4447AFEE68DDC5112B195 /* NSDateFormatter+JMSimpleDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+JMSimpleDate.m"; path = "src/libs/JMSimpleDate/NSDateFormatter+JMSimpleDate.m"; sourceTree = "<group>"; };
+		7CA44497582AF088D6DABD71 /* NSDate+JMSimpleDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JMSimpleDate.m"; path = "src/libs/JMSimpleDate/NSDate+JMSimpleDate.m"; sourceTree = "<group>"; };
+		7CA444B26F11F74DF9C258D1 /* JMSimpleDateConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMSimpleDateConstants.h; path = src/libs/JMSimpleDate/JMSimpleDateConstants.h; sourceTree = "<group>"; };
+		7CA444E973BEF707780226F0 /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AgendaViewController.m; path = src/app/viewcontrollers/AgendaViewController.m; sourceTree = "<group>"; };
+		7CA4452F79641BDCFD6DF970 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTextField.m; path = src/sandbox/CustomTextField.m; sourceTree = "<group>"; };
+		7CA4453546F97CECB7FDF22C /* HoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoursViewController.h; path = src/app/viewcontrollers/HoursViewController.h; sourceTree = "<group>"; };
+		7CA445673D85167B732B278B /* NSView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSView+Utils.h"; path = "src/utils/NSView+Utils.h"; sourceTree = "<group>"; };
+		7CA4457485A6C88B3EE055BE /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INAppStoreWindow.m; path = src/libs/CustomWindowController/INAppStoreWindow.m; sourceTree = "<group>"; };
+		7CA445AF20CC4F6D69720C70 /* ProjectsOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectsOutlineView.m; path = src/app/views/ProjectsOutlineView.m; sourceTree = "<group>"; };
+		7CA445E00E9BB2EB35937445 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicView.h; path = src/views/BasicView.h; sourceTree = "<group>"; };
+		7CA4461246637E047CB1F1C3 /* HoverTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoverTableRowView.m; path = src/libs/HoverTableDemo/HoverTableRowView.m; sourceTree = "<group>"; };
+		7CA4465A9292EA11F3A432F0 /* NSBezierPath+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+Utils.h"; path = "src/utils/NSBezierPath+Utils.h"; sourceTree = "<group>"; };
+		7CA446655D615DECA9E37A8D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = src/app/models/Model.m; sourceTree = "<group>"; };
+		7CA4466CCCA2362FB345F448 /* BasicSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicSplitView.h; path = src/views/BasicSplitView.h; sourceTree = "<group>"; };
+		7CA4469A764AD3EB31B7B9D1 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicViewController.m; path = src/app/viewcontrollers/BasicViewController.m; sourceTree = "<group>"; };
+		7CA446C40320F6FEADE9F9A9 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectsViewController.m; path = src/app/viewcontrollers/ProjectsViewController.m; sourceTree = "<group>"; };
+		7CA4471EF24446698C151919 /* JMSimpleDateConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMSimpleDateConstants.m; path = src/libs/JMSimpleDate/JMSimpleDateConstants.m; sourceTree = "<group>"; };
+		7CA4473144A5974628A85C4B /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgendaViewController.h; path = src/app/viewcontrollers/AgendaViewController.h; sourceTree = "<group>"; };
+		7CA44749ACB7AC618132FE83 /* TreeDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeDatum.h; path = src/data/TreeDatum.h; sourceTree = "<group>"; };
+		7CA44755EF4CE0F63142F1B4 /* BasicSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicSplitView.m; path = src/views/BasicSplitView.m; sourceTree = "<group>"; };
+		7CA4475C2C20F4B44DD90DD6 /* AgendaHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AgendaHeaderCell.h; path = src/app/views/AgendaHeaderCell.h; sourceTree = "<group>"; };
+		7CA447878B09BC579C47B607 /* BasicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicLibrary.m; path = src/models/BasicLibrary.m; sourceTree = "<group>"; };
+		7CA4478A7B97D216C432F0DC /* BasicOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicOperation.h; path = src/operations/BasicOperation.h; sourceTree = "<group>"; };
+		7CA44891015D24289F59BE2A /* ColoredWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColoredWindowController.h; path = src/libs/CustomWindowController/ColoredWindowController.h; sourceTree = "<group>"; };
+		7CA4489D7513150A31CDC073 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = src/app/models/Model.h; sourceTree = "<group>"; };
+		7CA448BE41AA7113390EAC1D /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTextField.h; path = src/sandbox/CustomTextField.h; sourceTree = "<group>"; };
+		7CA448DF1B554B8D85D4E543 /* PrioritySplitViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrioritySplitViewDelegate.m; path = src/libs/FixedSplitView/PrioritySplitViewDelegate.m; sourceTree = "<group>"; };
+		7CA448E97592BBAA9E4F57C2 /* BasicInnerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicInnerShadowView.m; path = src/views/BasicInnerShadowView.m; sourceTree = "<group>"; };
+		7CA448FBAB1350F703919A82 /* JMSimpleDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMSimpleDate.h; path = src/libs/JMSimpleDate/JMSimpleDate.h; sourceTree = "<group>"; };
+		7CA4491638FBDEB2BE52801C /* PrioritySplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrioritySplitViewDelegate.h; path = src/libs/FixedSplitView/PrioritySplitViewDelegate.h; sourceTree = "<group>"; };
+		7CA4494B8DED6BC36C7BDE99 /* VeryBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VeryBasicViewController.m; path = src/viewcontrollers/VeryBasicViewController.m; sourceTree = "<group>"; };
+		7CA4498CFF21E703B6DAE580 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INAppStoreWindow.h; path = src/libs/CustomWindowController/INAppStoreWindow.h; sourceTree = "<group>"; };
+		7CA449FEB309386C24E63754 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InboxViewController.h; path = src/app/viewcontrollers/InboxViewController.h; sourceTree = "<group>"; };
+		7CA44A2D1CFFE4CC9134D2CA /* TimeLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeLogViewController.m; path = src/app/viewcontrollers/TimeLogViewController.m; sourceTree = "<group>"; };
+		7CA44A3ACD614D5EC72FC8DE /* CustomMainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CustomMainMenu.xib; path = src/libs/CustomWindowController/CustomMainMenu.xib; sourceTree = "<group>"; };
+		7CA44A494A69597F300A872C /* VeryBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeryBasicViewController.h; path = src/viewcontrollers/VeryBasicViewController.h; sourceTree = "<group>"; };
+		7CA44A5E77409CC69EF16EE8 /* iTableColumnHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iTableColumnHeaderCell.m; path = src/libs/iTableColumnHeader/iTableColumnHeaderCell.m; sourceTree = "<group>"; };
+		7CA44A7B7386C934DC015C30 /* BasicWhiteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicWhiteView.m; path = src/app/views/BasicWhiteView.m; sourceTree = "<group>"; };
+		7CA44A7D5D597F60B41A4C55 /* iTableColumnHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iTableColumnHeaderCell.h; path = src/libs/iTableColumnHeader/iTableColumnHeaderCell.h; sourceTree = "<group>"; };
+		7CA44AE1A22EBF73F001C039 /* HoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoursViewController.m; path = src/app/viewcontrollers/HoursViewController.m; sourceTree = "<group>"; };
+		7CA44B034C085886CEEC96AE /* BasicOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicOutlineView.h; path = src/views/BasicOutlineView.h; sourceTree = "<group>"; };
+		7CA44B320B33345A172F726A /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INWindowButton.h; path = src/libs/CustomWindowController/INWindowButton.h; sourceTree = "<group>"; };
+		7CA44BAF69940335D664E30D /* ColoredWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColoredWindowController.m; path = src/libs/CustomWindowController/ColoredWindowController.m; sourceTree = "<group>"; };
+		7CA44BB35B27FCDA7FC7890C /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicView.m; path = src/views/BasicView.m; sourceTree = "<group>"; };
+		7CA44BCC0B82CC3192C7F26D /* JMSimpleDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMSimpleDate.m; path = src/libs/JMSimpleDate/JMSimpleDate.m; sourceTree = "<group>"; };
+		7CA44D679E42E2B591CF0C28 /* TimeEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeEntry.m; path = src/app/models/TimeEntry.m; sourceTree = "<group>"; };
+		7CA44D79DA0CA5ACB0FFEDED /* HoverTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoverTableRowView.h; path = src/libs/HoverTableDemo/HoverTableRowView.h; sourceTree = "<group>"; };
+		7CA44DB4072FBA883551A5D0 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = src/app/models/Project.h; sourceTree = "<group>"; };
+		7CA44DF384C708A9833897A5 /* NSView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+Utils.m"; path = "src/utils/NSView+Utils.m"; sourceTree = "<group>"; };
+		7CA44E379DB3CCB4B2F94605 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InboxViewController.m; path = src/app/viewcontrollers/InboxViewController.m; sourceTree = "<group>"; };
+		7CA44ECD2595B5FA8268A64D /* TreeDatum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeDatum.m; path = src/data/TreeDatum.m; sourceTree = "<group>"; };
+		7CA44F1657AC415D5099E22F /* BasicOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicOperation.m; path = src/operations/BasicOperation.m; sourceTree = "<group>"; };
+		7CA44F2AB950F742373A96CE /* NSColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Utils.m"; path = "src/utils/NSColor+Utils.m"; sourceTree = "<group>"; };
+		7CA44F35C9149BB27E72102D /* BasicWhiteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicWhiteView.h; path = src/app/views/BasicWhiteView.h; sourceTree = "<group>"; };
+		7CA44F5F466CB72631CB4967 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicViewController.h; path = src/app/viewcontrollers/BasicViewController.h; sourceTree = "<group>"; };
+		7CA44FCF179E16B971F808E5 /* SampleAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleAppAppDelegate.m; path = src/libs/CustomWindowController/SampleAppAppDelegate.m; sourceTree = "<group>"; };
+		7CA44FF4AFA62345ECA9E354 /* BasicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicModel.h; path = src/models/BasicModel.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BasicMacProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BasicMacProject-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* BasicMacProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMacProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBCD2C912AEEB6F0094CDBE /* SidebarTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableCellView.h; sourceTree = "<group>"; };
+		9DBCD2CA12AEEB6F0094CDBE /* SidebarTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableCellView.m; sourceTree = "<group>"; };
+		9DF264471358EC8300147CC7 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ContentView1.xib; sourceTree = "<group>"; };
+		9DF264491358EC8300147CC7 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ContentView2.xib; sourceTree = "<group>"; };
+		9DF2644B1358EC8300147CC7 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ContentView3.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F5A60516D3CC3A008E3896 /* All Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CA44106295E5344E9C67C94 /* AgendaCellView.h */,
+				7CA4443177C0600ED88DB72A /* AgendaCellView.m */,
+				7CA4475C2C20F4B44DD90DD6 /* AgendaHeaderCell.h */,
+				7CA4407D2724F2019E7C6D24 /* AgendaHeaderCell.m */,
+				7CA441D4DF24F57DBCD599F6 /* BasicLibrary.h */,
+				7CA447878B09BC579C47B607 /* BasicLibrary.m */,
+				7CA44FF4AFA62345ECA9E354 /* BasicModel.h */,
+				7CA442899CD0CBDB78A67513 /* BasicModel.m */,
+				7CA4478A7B97D216C432F0DC /* BasicOperation.h */,
+				7CA44F1657AC415D5099E22F /* BasicOperation.m */,
+				7CA44B034C085886CEEC96AE /* BasicOutlineView.h */,
+				7CA4430B971F37A2B34B7EE5 /* BasicOutlineView.m */,
+				7CA445E00E9BB2EB35937445 /* BasicView.h */,
+				7CA44BB35B27FCDA7FC7890C /* BasicView.m */,
+				7CA44F5F466CB72631CB4967 /* BasicViewController.h */,
+				7CA4469A764AD3EB31B7B9D1 /* BasicViewController.m */,
+				7CA4453546F97CECB7FDF22C /* HoursViewController.h */,
+				7CA44AE1A22EBF73F001C039 /* HoursViewController.m */,
+				7CA4426ADF11DDE6F544DEDC /* HourView.h */,
+				7CA441BA157170F845EC45D9 /* HourView.m */,
+				7CA449FEB309386C24E63754 /* InboxViewController.h */,
+				7CA44E379DB3CCB4B2F94605 /* InboxViewController.m */,
+				7CA44A7D5D597F60B41A4C55 /* iTableColumnHeaderCell.h */,
+				7CA44A5E77409CC69EF16EE8 /* iTableColumnHeaderCell.m */,
+				7CA448FBAB1350F703919A82 /* JMSimpleDate.h */,
+				7CA44BCC0B82CC3192C7F26D /* JMSimpleDate.m */,
+				7CA444B26F11F74DF9C258D1 /* JMSimpleDateConstants.h */,
+				7CA4471EF24446698C151919 /* JMSimpleDateConstants.m */,
+				7CA4489D7513150A31CDC073 /* Model.h */,
+				7CA446655D615DECA9E37A8D /* Model.m */,
+				7CA4439B8C8C7AA9BEBCD37A /* NSDate+JMSimpleDate.h */,
+				7CA44497582AF088D6DABD71 /* NSDate+JMSimpleDate.m */,
+				7CA44404DC2DEAE734A1F4C0 /* NSDateFormatter+JMSimpleDate.h */,
+				7CA4447AFEE68DDC5112B195 /* NSDateFormatter+JMSimpleDate.m */,
+				7CA445673D85167B732B278B /* NSView+Utils.h */,
+				7CA44DF384C708A9833897A5 /* NSView+Utils.m */,
+				7CA4422C54DC0A11DB977EC1 /* Person.h */,
+				7CA441C4864B2CB847CB5BC7 /* Person.m */,
+				7CA44DB4072FBA883551A5D0 /* Project.h */,
+				7CA440AA4D6D4329889580AB /* Project.m */,
+				7CA440700D8299D35AE0839C /* ProjectsOutlineView.h */,
+				7CA445AF20CC4F6D69720C70 /* ProjectsOutlineView.m */,
+				7CA44159A8B3EFA920FE8AA5 /* ProjectsViewController.h */,
+				7CA446C40320F6FEADE9F9A9 /* ProjectsViewController.m */,
+				7CA441068AAA3A12BEA11C50 /* SaveDataOperation.h */,
+				7CA440820D5483D0ED86210D /* SaveDataOperation.m */,
+				7CA443494EAE1BC99943ADDD /* SidebarOutlineView.h */,
+				7CA441B3CD9FBC3CB4F11071 /* SidebarOutlineView.m */,
+				7CA4405263E53D76C4A19214 /* TimeEntry.h */,
+				7CA44D679E42E2B591CF0C28 /* TimeEntry.m */,
+				7CA444208DA56B14297E558F /* TimeLogViewController.h */,
+				7CA44A2D1CFFE4CC9134D2CA /* TimeLogViewController.m */,
+				7CA44A494A69597F300A872C /* VeryBasicViewController.h */,
+				7CA4494B8DED6BC36C7BDE99 /* VeryBasicViewController.m */,
+			);
+			name = "All Classes";
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* AppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* AppDelegate.m */,
+				9DBCD2C912AEEB6F0094CDBE /* SidebarTableCellView.h */,
+				9DBCD2CA12AEEB6F0094CDBE /* SidebarTableCellView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* BasicMacProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SidebarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03F5A60516D3CC3A008E3896 /* All Classes */,
+				0309359E16D03D1A00D1C969 /* assets */,
+				0309359C16D039A700D1C969 /* src */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				7CA44A7B7386C934DC015C30 /* BasicWhiteView.m */,
+				7CA44F35C9149BB27E72102D /* BasicWhiteView.h */,
+				7CA44256AC8931DF9880C79E /* NSColor+Utils.h */,
+				7CA44F2AB950F742373A96CE /* NSColor+Utils.m */,
+				7CA44D79DA0CA5ACB0FFEDED /* HoverTableRowView.h */,
+				7CA4461246637E047CB1F1C3 /* HoverTableRowView.m */,
+				7CA444E973BEF707780226F0 /* AgendaViewController.m */,
+				7CA4473144A5974628A85C4B /* AgendaViewController.h */,
+				7CA4452F79641BDCFD6DF970 /* CustomTextField.m */,
+				7CA448BE41AA7113390EAC1D /* CustomTextField.h */,
+				7CA448E97592BBAA9E4F57C2 /* BasicInnerShadowView.m */,
+				7CA441E6ED706735AC678F81 /* BasicInnerShadowView.h */,
+				7CA44755EF4CE0F63142F1B4 /* BasicSplitView.m */,
+				7CA4466CCCA2362FB345F448 /* BasicSplitView.h */,
+				7CA44891015D24289F59BE2A /* ColoredWindowController.h */,
+				7CA44BAF69940335D664E30D /* ColoredWindowController.m */,
+				7CA4498CFF21E703B6DAE580 /* INAppStoreWindow.h */,
+				7CA4457485A6C88B3EE055BE /* INAppStoreWindow.m */,
+				7CA44B320B33345A172F726A /* INWindowButton.h */,
+				7CA440006973C02383663245 /* INWindowButton.m */,
+				7CA4411313716C185C30FB3B /* NSColor+INAdditions.h */,
+				7CA44261AF0BE6E096CF8805 /* NSColor+INAdditions.m */,
+				7CA44A3ACD614D5EC72FC8DE /* CustomMainMenu.xib */,
+				7CA44FCF179E16B971F808E5 /* SampleAppAppDelegate.m */,
+				7CA44437D9EF3A19A109CDEE /* SampleAppAppDelegate.h */,
+				7CA4491638FBDEB2BE52801C /* PrioritySplitViewDelegate.h */,
+				7CA448DF1B554B8D85D4E543 /* PrioritySplitViewDelegate.m */,
+				7CA44749ACB7AC618132FE83 /* TreeDatum.h */,
+				7CA44ECD2595B5FA8268A64D /* TreeDatum.m */,
+				7CA4436906859D489A183E41 /* TimeEntryCell.m */,
+				7CA440D60A2D3096270ED335 /* TimeEntryCell.h */,
+				7CA441BDF7E3C954B85E3A4A /* NSBezierPath+Utils.m */,
+				7CA4465A9292EA11F3A432F0 /* NSBezierPath+Utils.h */,
+				7CA440AD98E4A824CFBC645A /* NSShadow+Utils.m */,
+				7CA44223F7C2C88D761898C3 /* NSShadow+Utils.h */,
+			);
+			name = SidebarDemo;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* BasicMacProject_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				9DF264461358EC8300147CC7 /* ContentView1.xib */,
+				9DF264481358EC8300147CC7 /* ContentView2.xib */,
+				9DF2644A1358EC8300147CC7 /* ContentView3.xib */,
+				8D1107310486CEB800E47090 /* BasicMacProject-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				03F5A5FB16D18CCB008E3896 /* InboxView.xib */,
+				03F5A5FD16D18F66008E3896 /* HoursView.xib */,
+				03F5A5FF16D191D3008E3896 /* TimeLogView.xib */,
+				03F5A60116D1983B008E3896 /* ProjectsView.xib */,
+				03F5A60316D2CD3C008E3896 /* HourCell.xib */,
+				03E2184416D509FE005E4CBC /* AgendaView.xib */,
+				03A8C47916D5A61C00989360 /* ColoredWindow.xib */,
+				03A8C47B16D6CD8B00989360 /* ScheduleView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* BasicMacProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BasicMacProject" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				030935A016D03D3700D1C969 /* ShellScript */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicMacProject;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SidebarDemo;
+			productReference = 8D1107320486CEB800E47090 /* BasicMacProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BasicMacProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SidebarDemo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* BasicMacProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				9DF2644C1358EC8300147CC7 /* ContentView1.xib in Resources */,
+				9DF2644D1358EC8300147CC7 /* ContentView2.xib in Resources */,
+				9DF2644E1358EC8300147CC7 /* ContentView3.xib in Resources */,
+				0309359D16D039A700D1C969 /* src in Resources */,
+				0309359F16D03D1A00D1C969 /* assets in Resources */,
+				03F5A5FC16D18CCB008E3896 /* InboxView.xib in Resources */,
+				03F5A5FE16D18F66008E3896 /* HoursView.xib in Resources */,
+				03F5A60016D191D3008E3896 /* TimeLogView.xib in Resources */,
+				03F5A60216D1983B008E3896 /* ProjectsView.xib in Resources */,
+				03F5A60416D2CD3C008E3896 /* HourCell.xib in Resources */,
+				03E2184516D509FE005E4CBC /* AgendaView.xib in Resources */,
+				03A8C47A16D5A61C00989360 /* ColoredWindow.xib in Resources */,
+				7CA44B1129B9A092C18957A3 /* CustomMainMenu.xib in Resources */,
+				03A8C47C16D6CD8B00989360 /* ScheduleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030935A016D03D3700D1C969 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"${SRCROOT}/scripts/import_script.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* AppDelegate.m in Sources */,
+				9DBCD2CB12AEEB6F0094CDBE /* SidebarTableCellView.m in Sources */,
+				7CA44C44276925758046924D /* BasicView.m in Sources */,
+				7CA447181A01BCC6938D96AC /* InboxViewController.m in Sources */,
+				7CA444914ADF5A055275216A /* HoursViewController.m in Sources */,
+				7CA443A9C34DA8155CAB0763 /* TimeLogViewController.m in Sources */,
+				7CA440DECA5B26B74F9A3151 /* NSView+Utils.m in Sources */,
+				7CA44ED59FBB6FEE8AB4BD13 /* BasicLibrary.m in Sources */,
+				7CA443277790B682AD35C6F1 /* BasicModel.m in Sources */,
+				7CA445CAB9A83B3C08F41610 /* VeryBasicViewController.m in Sources */,
+				7CA44A0A3978D80858771E86 /* Model.m in Sources */,
+				7CA4463410792F024284BCA1 /* BasicViewController.m in Sources */,
+				7CA441B3709954D0A73306C2 /* ProjectsViewController.m in Sources */,
+				7CA44DFA7A2602F4AE5F6572 /* SidebarOutlineView.m in Sources */,
+				7CA4467B5EE40E684007EED2 /* Project.m in Sources */,
+				7CA442FB513157BEFDBFEEF3 /* BasicOperation.m in Sources */,
+				7CA4411336EEAB6A61BA8090 /* SaveDataOperation.m in Sources */,
+				7CA445C9A845BA84A5646E0F /* BasicOutlineView.m in Sources */,
+				7CA447785857D850D50EFA07 /* ProjectsOutlineView.m in Sources */,
+				7CA4498FC543E886370E3185 /* TimeEntry.m in Sources */,
+				7CA44FB6C7D549FBDAE74FBE /* JMSimpleDate.m in Sources */,
+				7CA44E5982012B32430F6251 /* JMSimpleDateConstants.m in Sources */,
+				7CA4408952E797017685EF5B /* NSDate+JMSimpleDate.m in Sources */,
+				7CA442BA7BC89D6C5D82BC95 /* NSDateFormatter+JMSimpleDate.m in Sources */,
+				7CA44F39E4A5FF9AB9F317DB /* Person.m in Sources */,
+				7CA44181C135A3B77A5796B0 /* HourView.m in Sources */,
+				7CA446A205A96C587F91F656 /* iTableColumnHeaderCell.m in Sources */,
+				7CA44C91988B1EDF5BAD2103 /* AgendaHeaderCell.m in Sources */,
+				7CA44A3FFC55123BA90A1E6B /* AgendaCellView.m in Sources */,
+				7CA4485A0526272FB9E3136E /* BasicWhiteView.m in Sources */,
+				7CA444E7F4E1325C3B098E2E /* NSColor+Utils.m in Sources */,
+				7CA44712929522591BF0C226 /* HoverTableRowView.m in Sources */,
+				7CA445FB0CF180C45A9409DB /* AgendaViewController.m in Sources */,
+				7CA4421A51310BB190E485E5 /* CustomTextField.m in Sources */,
+				7CA44978316D305D37047B52 /* BasicInnerShadowView.m in Sources */,
+				7CA44739E9486505AE0202AC /* BasicSplitView.m in Sources */,
+				7CA44D4C5B46ED2F2D24998E /* ColoredWindowController.m in Sources */,
+				7CA440AC33069256F8AB4232 /* INAppStoreWindow.m in Sources */,
+				7CA4408B361604E281ACAC41 /* INWindowButton.m in Sources */,
+				7CA445A4E3D0D67E9047DE2B /* NSColor+INAdditions.m in Sources */,
+				7CA448D460CFEFE8D0E40A47 /* SampleAppAppDelegate.m in Sources */,
+				7CA44B68E60E58681A6D3E0F /* PrioritySplitViewDelegate.m in Sources */,
+				7CA4474655A0B56BCE846B63 /* TreeDatum.m in Sources */,
+				7CA4415FE2A09F41B07F56D1 /* TimeEntryCell.m in Sources */,
+				7CA44641E0E4445E75043E32 /* NSBezierPath+Utils.m in Sources */,
+				7CA44D16EE906A99A303E959 /* NSShadow+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9DF264461358EC8300147CC7 /* ContentView1.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF264471358EC8300147CC7 /* English */,
+			);
+			name = ContentView1.xib;
+			sourceTree = "<group>";
+		};
+		9DF264481358EC8300147CC7 /* ContentView2.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF264491358EC8300147CC7 /* English */,
+			);
+			name = ContentView2.xib;
+			sourceTree = "<group>";
+		};
+		9DF2644A1358EC8300147CC7 /* ContentView3.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF2644B1358EC8300147CC7 /* English */,
+			);
+			name = ContentView3.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicMacProject_Prefix.pch;
+				INFOPLIST_FILE = "BasicMacProject-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = BasicMacProject;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicMacProject_Prefix.pch;
+				INFOPLIST_FILE = "BasicMacProject-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = BasicMacProject;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BasicMacProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BasicMacProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
