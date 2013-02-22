@@ -55,7 +55,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="NSMenuItem" id="694149608">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle">BasicMacProject</string>
+						<string key="NSTitle">TimesheetTool</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -69,12 +69,12 @@
 						</object>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="110575045">
-							<string key="NSTitle">BasicMacProject</string>
+							<string key="NSTitle">TimesheetTool</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="238522557">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">About BasicMacProject</string>
+									<string key="NSTitle">About TimesheetTool</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="35465992"/>
@@ -141,7 +141,7 @@
 								</object>
 								<object class="NSMenuItem" id="755159360">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Hide BasicMacProject</string>
+									<string key="NSTitle">Hide TimesheetTool</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -179,7 +179,7 @@
 								</object>
 								<object class="NSMenuItem" id="632727374">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Quit BasicMacProject</string>
+									<string key="NSTitle">Quit TimesheetTool</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1311,7 +1311,7 @@
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="105068016">
 									<reference key="NSMenu" ref="992780483"/>
-									<string key="NSTitle">BasicMacProject Help</string>
+									<string key="NSTitle">TimesheetTool Help</string>
 									<string key="NSKeyEquiv">?</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1330,13 +1330,13 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{335, 72}, {800, 700}}</string>
 				<int key="NSWTFlags">1954021376</int>
-				<string key="NSWindowTitle">BasicMacProject</string>
+				<string key="NSWindowTitle">TimesheetTool</string>
 				<string key="NSWindowClass">INAppStoreWindow</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<string key="NSWindowContentMinSize">{600, 600}</string>
 				<object class="NSView" key="NSWindowView" id="439893737">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1345,7 +1345,6 @@
 							<int key="NSvFlags">274</int>
 							<string key="NSFrameSize">{840, 740}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="160547250"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">BasicView</string>
@@ -1378,8 +1377,7 @@
 															</object>
 															<string key="NSFrameSize">{215, 694}</string>
 															<reference key="NSSuperview" ref="298376867"/>
-															<reference key="NSWindow"/>
-															<reference key="NSNextKeyView" ref="384170216"/>
+															<reference key="NSNextKeyView" ref="705922815"/>
 															<string key="NSReuseIdentifierKey">_NS:1200</string>
 															<bool key="NSEnabled">YES</bool>
 															<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -1486,7 +1484,6 @@
 													</object>
 													<string key="NSFrameSize">{215, 694}</string>
 													<reference key="NSSuperview" ref="690454413"/>
-													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="342657426"/>
 													<string key="NSReuseIdentifierKey">_NS:1198</string>
 													<reference key="NSDocView" ref="342657426"/>
@@ -1501,7 +1498,6 @@
 													<int key="NSvFlags">-2147483392</int>
 													<string key="NSFrame">{{224, 17}, {15, 102}}</string>
 													<reference key="NSSuperview" ref="690454413"/>
-													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="627947297"/>
 													<string key="NSReuseIdentifierKey">_NS:1224</string>
 													<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -1514,7 +1510,6 @@
 													<int key="NSvFlags">-2147483392</int>
 													<string key="NSFrame">{{-100, -100}, {213.5, 15}}</string>
 													<reference key="NSSuperview" ref="690454413"/>
-													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="298376867"/>
 													<string key="NSReuseIdentifierKey">_NS:1226</string>
 													<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -1526,8 +1521,7 @@
 											</object>
 											<string key="NSFrame">{{0, 5}, {215, 694}}</string>
 											<reference key="NSSuperview" ref="887498344"/>
-											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="705922815"/>
+											<reference key="NSNextKeyView" ref="298376867"/>
 											<string key="NSReuseIdentifierKey">_NS:1196</string>
 											<int key="NSsFlags">133648</int>
 											<reference key="NSVScroller" ref="876226360"/>
@@ -1541,7 +1535,6 @@
 									</object>
 									<string key="NSFrameSize">{215, 700}</string>
 									<reference key="NSSuperview" ref="160547250"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="690454413"/>
 									<string key="NSReuseIdentifierKey">_NS:593</string>
 									<string key="NSClassName">BasicView</string>
@@ -1556,15 +1549,12 @@
 											<int key="NSvFlags">274</int>
 											<string key="NSFrameSize">{582, 700}</string>
 											<reference key="NSSuperview" ref="627947297"/>
-											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<string key="NSClassName">BasicView</string>
 										</object>
 									</object>
 									<string key="NSFrame">{{216, 0}, {584, 700}}</string>
 									<reference key="NSSuperview" ref="160547250"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="312078098"/>
 									<string key="NSReuseIdentifierKey">_NS:595</string>
 									<string key="NSClassName">BasicView</string>
@@ -1572,7 +1562,6 @@
 							</object>
 							<string key="NSFrameSize">{800, 700}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="887498344"/>
 							<string key="NSReuseIdentifierKey">_NS:591</string>
 							<bool key="NSIsVertical">YES</bool>
@@ -1594,8 +1583,6 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{800, 700}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="43689652"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>

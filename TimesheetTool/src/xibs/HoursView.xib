@@ -3806,7 +3806,7 @@
 												<object class="NSFont" key="NSSupport">
 													<string key="NSName">LucidaGrande</string>
 													<double key="NSSize">12</double>
-													<int key="NSfFlags">4883</int>
+													<int key="NSfFlags">16</int>
 												</object>
 												<string key="NSCellIdentifier">_NS:1667</string>
 												<reference key="NSControlView" ref="248554023"/>

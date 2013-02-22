@@ -60,10 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/models/BasicLibrary.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="48" column="19" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#notifyDelegates:object:#0;n#BasicLibrary#0" expanded="true" />
-                <element signature="n#notifyDelegates:object:object:#0;n#BasicLibrary#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,13 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/models/Model.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="118" column="83" selection-start="3398" selection-end="3398" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#init#0;n#Model#0" expanded="true" />
-                <element signature="n#currentProjectIndex#0;n#Model#0" expanded="true" />
-                <element signature="n#currentProjectId#0;n#Model#0" expanded="true" />
-                <element signature="n#populateProjectIds#0;n#Model#0" expanded="true" />
-                <element signature="n#projectFromId:#0;n#Model#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,16 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/TimeLogViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="51" column="51" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#updateTimer#0;n#TimeLogViewController#0" expanded="true" />
-                <element signature="n#selectedAddNewProject:#0;n#TimeLogViewController#0" expanded="true" />
-                <element signature="n#handleStartClicked:#0;n#TimeLogViewController#0" expanded="true" />
-                <element signature="n#addTimeEntry#0;n#TimeLogViewController#0" expanded="true" />
-                <element signature="n#handleStopClicked:#0;n#TimeLogViewController#0" expanded="true" />
-                <element signature="n#switchMode:#0;n#TimeLogViewController#0" expanded="true" />
-                <element signature="n#displayCurrentProject#0;n#TimeLogViewController#0" expanded="true" />
-                <element signature="n#stringFromTimeEntry:#0;n#TimeLogViewController#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,10 +110,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HoursViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ColoredWindowController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/libs/CustomWindowController/ColoredWindowController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="0" selection-start="2867" selection-end="2867" vertical-scroll-proportion="0.44241574">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoursViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="81" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.1954023">
+            <state line="88" column="81" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#initWithNibName:bundle:#0;n#HoursViewController#0" expanded="true" />
                 <element signature="n#loadView#0;n#HoursViewController#0" expanded="true" />
@@ -167,10 +158,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/models/TimeEntry.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="18" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#initWithTimeStarted:#0;n#TimeEntry#0" expanded="true" />
-                <element signature="n#initWithTimeStarted:projectId:#0;n#TimeEntry#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -206,11 +194,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/views/BasicWhiteView.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="44" column="33" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#drawRect:#0;n#BasicWhiteView#0" expanded="true" />
-                <element signature="n#drawShadow:#0;n#BasicWhiteView#0" expanded="true" />
-                <element signature="n#drawGradientInRect:#0;n#BasicWhiteView#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -239,7 +223,6 @@
         <option value="$PROJECT_DIR$/src/app/models/Project.m" />
         <option value="$PROJECT_DIR$/src/app/views/BasicWhiteView.m" />
         <option value="$PROJECT_DIR$/src/app/viewcontrollers/InboxViewController.m" />
-        <option value="$PROJECT_DIR$/src/libs/CustomWindowController/ColoredWindowController.m" />
         <option value="$PROJECT_DIR$/src/libs/CustomWindowController/INAppStoreWindow.m" />
         <option value="$PROJECT_DIR$/src/app/data/TimeEntryCell.h" />
         <option value="$PROJECT_DIR$/src/models/BasicLibrary.m" />
@@ -250,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/app/operations/SaveDataOperation.m" />
         <option value="$PROJECT_DIR$/src/app/models/Model.m" />
         <option value="$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.m" />
+        <option value="$PROJECT_DIR$/src/libs/CustomWindowController/ColoredWindowController.m" />
       </list>
     </option>
   </component>
@@ -284,6 +268,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -520,18 +505,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="BasicMacProject" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.SidebarDemo">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="SidebarDemo" TARGET_NAME="SidebarDemo" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="SidebarDemo" RUN_TARGET_NAME="SidebarDemo" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -579,13 +563,11 @@
     <frame x="0" y="22" width="1440" height="807" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15136299" sideWeight="0.66619915" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16140603" sideWeight="0.66619915" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33380085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16355811" sideWeight="0.66619915" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -593,6 +575,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -663,85 +647,7 @@
     <entry file="file://$PROJECT_DIR$/src/libs/CustomWindowController/INAppStoreWindow.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="416" column="6" selection-start="17551" selection-end="17551" vertical-scroll-proportion="-0.4597701">
-          <folding>
-            <element signature="n#INMidHeight#0" expanded="true" />
-            <element signature="n#createClippingPathWithRectAndRadius#0" expanded="true" />
-            <element signature="n#createGradientWithColors#0" expanded="true" />
-            <element signature="n#methodSignatureForSelector:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
-            <element signature="n#respondsToSelector:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
-            <element signature="n#forwardInvocation:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
-            <element signature="n#window:willPositionSheet:usingRect:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
-            <element signature="n#isKindOfClass:#0;n#INAppStoreWindowDelegateProxy#0" expanded="true" />
-            <element signature="n#drawNoiseWithOpacity:#0;n#INTitlebarView#0" expanded="true" />
-            <element signature="e#6574#7167#0" expanded="true" />
-            <element signature="n#drawRect:#0;n#INTitlebarView#0" expanded="true" />
-            <element signature="n#getTitleFrame:textAttributes:forWindow:#0;n#INTitlebarView#0" expanded="true" />
-            <element signature="n#mouseUp:#0;n#INTitlebarView#0" expanded="true" />
-            <element signature="n#mouseDragged:#0;n#INTitlebarContainer#0" expanded="true" />
-            <element signature="n#initWithContentRect:styleMask:backing:defer:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#initWithContentRect:styleMask:backing:defer:screen:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#dealloc#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#becomeKeyWindow#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#resignKeyWindow#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#becomeMainWindow#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#resignMainWindow#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setContentView:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setTitle:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setTitleBarView:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#titleBarView#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setTitleBarHeight:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#titleBarHeight#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setShowsBaselineSeparator:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#showsBaselineSeparator#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setTrafficLightButtonsLeftMargin:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#trafficLightButtonsLeftMargin#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setFullScreenButtonRightMargin:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#fullScreenButtonRightMargin#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setShowsTitle:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setCenterFullScreenButton:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setCenterTrafficLightButtons:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setVerticalTrafficLightButtons:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setTrafficLightSeparation:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setDelegate:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#delegate#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setCloseButton:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setMinimizeButton:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setZoomButton:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setFullScreenButton:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setStyleMask:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setFrame:display:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#setFrame:display:animate:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_doInitialWindowSetup#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_windowButtonToLayout:orUserProvided:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_closeButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_minimizeButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_zoomButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_fullScreenButtonToLayout#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_layoutTrafficLightsAndContent#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#undoManagerDidCloseUndoGroupNotification:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#windowWillEnterFullScreen:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#windowWillExitFullScreen:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#themeFrameView#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_createTitlebarView#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_hideTitleBarView:#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_setupTrafficLightsTrackingArea#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_recalculateFrameForTitleBarContainer#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_repositionContentView#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_minimumTitlebarHeight#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_defaultTrafficLightLeftMargin#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_defaultTrafficLightSeparation#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_displayWindowAndTitlebar#0;n#INAppStoreWindow#0" expanded="true" />
-            <element signature="n#_updateTitlebarView#0;n#INAppStoreWindow#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/CustomWindowController/ColoredWindowController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="318" selection-end="318" vertical-scroll-proportion="0.47767857">
-          <folding>
-            <element signature="n#initWithCoder:#0;n#ColoredWindowController#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,10 +661,7 @@
     <entry file="file://$PROJECT_DIR$/src/models/BasicLibrary.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="19" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#notifyDelegates:object:#0;n#BasicLibrary#0" expanded="true" />
-            <element signature="n#notifyDelegates:object:object:#0;n#BasicLibrary#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,21 +682,14 @@
     <entry file="file://$PROJECT_DIR$/src/app/models/TimeEntry.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="18" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#initWithTimeStarted:#0;n#TimeEntry#0" expanded="true" />
-            <element signature="n#initWithTimeStarted:projectId:#0;n#TimeEntry#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/views/BasicWhiteView.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="33" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#drawRect:#0;n#BasicWhiteView#0" expanded="true" />
-            <element signature="n#drawShadow:#0;n#BasicWhiteView#0" expanded="true" />
-            <element signature="n#drawGradientInRect:#0;n#BasicWhiteView#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,29 +717,14 @@
     <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/TimeLogViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="51" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#updateTimer#0;n#TimeLogViewController#0" expanded="true" />
-            <element signature="n#selectedAddNewProject:#0;n#TimeLogViewController#0" expanded="true" />
-            <element signature="n#handleStartClicked:#0;n#TimeLogViewController#0" expanded="true" />
-            <element signature="n#addTimeEntry#0;n#TimeLogViewController#0" expanded="true" />
-            <element signature="n#handleStopClicked:#0;n#TimeLogViewController#0" expanded="true" />
-            <element signature="n#switchMode:#0;n#TimeLogViewController#0" expanded="true" />
-            <element signature="n#displayCurrentProject#0;n#TimeLogViewController#0" expanded="true" />
-            <element signature="n#stringFromTimeEntry:#0;n#TimeLogViewController#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/models/Model.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="83" selection-start="3398" selection-end="3398" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#init#0;n#Model#0" expanded="true" />
-            <element signature="n#currentProjectIndex#0;n#Model#0" expanded="true" />
-            <element signature="n#currentProjectId#0;n#Model#0" expanded="true" />
-            <element signature="n#populateProjectIds#0;n#Model#0" expanded="true" />
-            <element signature="n#projectFromId:#0;n#Model#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/viewcontrollers/HoursViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="81" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.1954023">
+        <state line="88" column="81" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#initWithNibName:bundle:#0;n#HoursViewController#0" expanded="true" />
             <element signature="n#loadView#0;n#HoursViewController#0" expanded="true" />
@@ -875,6 +756,13 @@
             <element signature="n#createTableColumns#0;n#HoursViewController#0" expanded="true" />
             <element signature="n#makeTimeEntriesTree#0;n#HoursViewController#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/CustomWindowController/ColoredWindowController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2867" selection-end="2867" vertical-scroll-proportion="0.44241574">
+          <folding />
         </state>
       </provider>
     </entry>

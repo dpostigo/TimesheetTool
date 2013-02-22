@@ -70,9 +70,4 @@
     [titleBarView addSubview: segment];
 }
 
-
-- (void) dealloc {
-    [super dealloc];
-}
-
 @end
